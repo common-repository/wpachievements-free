@@ -1,0 +1,280 @@
+.wpa_clear{
+  clear:both;
+}
+.wpa_pull_left{
+  float:left;
+}
+
+h1.wpa_main_title{
+  text-decoration:underline;
+}
+
+#wpa_change_log_outter{
+  display: block;
+  float:left;
+  margin: 30px 25px 0 0;
+  width:44%;
+  min-width:453px;
+}
+#wpa_change_log{
+  background:#f9f9f9;
+  border: 2px solid #c7c7c7;
+  display: block;
+  overflow: visible;
+  /*overflow-y: scroll;*/
+  overflow-y:visible;
+  padding: 0 10px 14px;
+  color: #333;
+  font-size: 11px;
+  font-family:Helvetica, Arial, sans-serif;
+  /*height:485px;*/
+}
+.wpachievements_page_wpachievements_documentation #wpa_change_log{
+  height:100%;
+  overflow-y:visible;
+}
+#wpa_change_log strong{
+  font-weight:bold;
+}
+#wpa_change_log h4{
+  margin-bottom:0;
+  font-size:12px;
+  text-decoration:underline;
+}
+#wpa_change_log ul{
+  margin:0 0 0 10px;
+}
+#wpa_change_log li{
+  margin:0;
+}
+
+#wpa_latest_products{
+  width:45%;
+  min-width:453px;
+  display:inline-block;
+  margin:30px 25px 0 0;
+  float:left;
+}
+#wpa_latest_products .wpa_product_item{
+  width:443px;
+  position:relative;
+  background:#f9f9f9;
+  border: 2px solid #c7c7c7;
+  padding:3px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  margin-bottom:10px;
+}
+#wpa_latest_products .wpa_product_item img{
+  margin-right:15px;
+}
+#wpa_latest_products .wpa_product_item h3{
+  margin-top:0;
+}
+#wpa_latest_products .wpa_product_item h3 small{
+  font-size:10px;
+}
+#wpa_latest_products .wpa_product_item p{
+  padding-right:3px;
+}
+#wpa_latest_products .wpa_product_item .wpa_product_cost{
+  
+}
+#wpa_latest_products .wpa_product_item .wpa_product_cost span{
+  
+}
+#wpa_latest_products .wpa_product_links{
+  width:80px;
+  margin-right:10px;
+  float:left;
+}
+#wpa_latest_products .wpa_product_item a{
+  background-color: #bb3415;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d0441b), color-stop(100%, #bb3415));
+  background-image: -webkit-linear-gradient(#d0441b, #bb3415);
+  background-image: -moz-linear-gradient(#d0441b, #bb3415);
+  background-image: -o-linear-gradient(#d0441b, #bb3415);
+  background-image: linear-gradient(#d0441b,#bb3415);
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #c93d1e;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font: 11px/15px Tahoma,Geneva,sans-serif;
+  margin: 5px 0 0;
+  padding: 5px 10px 6px;
+  text-align: left;
+  text-shadow: 0 0 0 transparent,1px 1px 0 rgba(0,0,0,0.1);
+  text-decoration:none;
+}
+#wpa_latest_products .wpa_product_item a:hover{
+  background-color: #d0441b;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bb3415), color-stop(100%, #d0441b));
+  background-image: -webkit-linear-gradient(#bb3415, #d0441b);
+  background-image: -moz-linear-gradient(#bb3415, #d0441b);
+  background-image: -o-linear-gradient(#bb3415, #d0441b);
+  background-image: linear-gradient(#bb3415,#d0441b);
+  text-decoration:underline;
+}
+
+#wpa_faq{
+  width:100%;
+  min-width:453px;
+  display:inline-block;
+  float:left;
+  margin-top:20px;
+}
+#wpa_faq h3{
+  margin:0 0 8px;
+}
+#wpa_faq .wpa_pull_left{
+  width:453px;
+  margin:0 10px 0 0;
+}
+#wpa_faq .wpa_faq_question{
+  width:451px;
+  background: #f5f5f5;
+  background-image: -webkit-gradient(linear,left bottom,left top,from(#f5f5f5),to(#f9f9f9));
+  background-image: -webkit-linear-gradient(bottom,#f5f5f5,#f9f9f9);
+  background-image: -moz-linear-gradient(bottom,#f5f5f5,#f9f9f9);
+  background-image: -o-linear-gradient(bottom,#f5f5f5,#f9f9f9);
+  background-image: linear-gradient(to top,#f5f5f5,#f9f9f9);
+  border:1px solid #c7c7c7;
+  padding:0;
+  float:left;
+  margin:0 0 10px;
+}
+#wpa_faq .wpa_faq_question h3{
+  width:431px;
+  height:32px;
+  background:#3c3c3c;
+  margin:0;
+  padding:10px 10px;
+  cursor:pointer;
+  color:#fff;
+}
+#wpa_faq .wpa_faq_question h3.small_text{
+  line-height:32px;
+}
+#wpa_faq .wpa_faq_question.active h3{
+  border-bottom:1px solid #c7c7c7;
+}
+#wpa_faq .wpa_faq_answer{
+  display:none;
+  padding:0 10px 10px;
+}
+#wpa_faq .wpa_faq_answer ol{
+  list-style:decimal;
+  margin:0 0 0 30px;
+}
+#wpa_faq .wpa_faq_answer li{
+  font-weight:bold;
+}
+#wpa_faq .wpa_faq_answer li span{
+  font-weight:normal;
+}
+#wpa_faq .wpa_faq_answer ul{
+  list-style:circle;
+  margin:0 0 0 15px;
+}
+
+#wpa_donations{
+  width:453px;
+}
+
+#wpa_important{
+  width:100%;
+  min-width:453px;
+  display:inline-block;
+  float:left;
+}
+
+#wpa_important .wpa_important_item{
+  background:#ffd7d7;
+  border:1px solid #F00;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding:0 10px;
+  max-width:780px;
+  margin-bottom:10px;
+}
+#wpa_important .wpa_important_item ul{
+  list-style:disc;
+  margin-left:30px;
+}
+#wpa_important .wpa_important_item li{
+  font-weight:bold;
+  margin-bottom:0;
+}
+
+.wpa_shortcode_sep {
+  border-bottom:2px dashed #ccc;
+  height:2px;
+  width:100%;
+  clear:both;
+  margin:35px 0;
+}
+
+
+/* Code */
+.wpa_code {
+  width:95%;
+  border: 2px solid #ccc;
+  padding: 5px 10px;
+  margin: 10px 0;
+  white-space:normal;
+}
+
+.wpa_code_blue {
+  background: #CBEAF5;
+  border-color: #7AD3F3;
+}
+
+.wpa_code_green {
+  border-color: #66FA78;
+  background: #D7FCDB;
+}
+
+.wpa_code_red {
+  border-color: #FF969D;
+  background: #FAE6E7;
+}
+
+table.wpa_doc_params {
+  width:100%;
+  border: 1px solid #ccc;
+  background-color:#CCC;
+}
+
+table.wpa_doc_params td,table.wpa_doc_params th {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+table.wpa_doc_params th {
+  border-right: 1px solid #ddd;
+}
+
+table.wpa_doc_params th {
+  text-align: center;
+}
+
+table.wpa_doc_params tbody tr {
+  background-color:#EEE
+}
+table.wpa_doc_params tbody tr.alternate {
+  background-color:#f9f9f9
+}

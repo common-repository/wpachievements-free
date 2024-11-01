@@ -1,0 +1,15 @@
+.SmallBox .wpa_clear{
+  clear:both;
+}
+.SmallBox .wpa_twr_link{
+  background:url('../img/twr-btn-share.png') no-repeat left top;
+  width:210px;
+  height:41px;
+  cursor:pointer;
+  float:right;
+  margin-right:0px;
+}
+.SmallBox .wpa_twr_link:hover{
+  background-position:left bottom;
+}
+#wpa_hidden{display:none;}

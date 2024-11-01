@@ -1,0 +1,347 @@
+.recent_point_activity_head strong,.recent_point_activity strong,.custom_ranks_head strong{font-weight:bold}
+.recent_point_activity_head strong,.recent_point_activity strong,.recent_point_activity i,.custom_ranks_head strong{text-shadow:none;cursor:default}
+.recent_point_activity_head strong{color: #333;font-size:13px}
+.recent_point_activity strong,.recent_point_activity i,.custom_ranks_head strong{color:inherit;font-size:11px}
+.recent_point_activity .ab-item{height:20px;line-height:20px}
+.recent_point_activity_head:hover,.custom_ranks_head:hover,.recent_point_activity_head .ab-item:focus,.custom_ranks_head .ab-item:focus,.recent_point_activity:hover,.recent_point_activity .ab-item:focus{background-color:transparent}
+.recent_point_activity span{display:none}
+.recent_point_activity_link{margin-top:5px}
+.recent_point_activity_link a{font-size:11px}
+#my_achievements_title{margin-top:-3px;color:#AAA;font:13px tahoma, Arial,verdana, sans-serif;font-weight:bold}
+#my_quests_title{margin-top:-3px;color:#AAA;font:13px tahoma, Arial,verdana, sans-serif;font-weight:bold}
+#my_rank_title{margin-top:-3px;color:#AAA;font:13px tahoma, Arial,verdana, sans-serif;font-weight:bold}
+.achieves_gained_badge{float:left;max-width:25px;max-height:25px;margin:3px 3px 0 0;border:none;padding:0;background:none;background-color:transparent;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none}
+.achieves_gained_badge_feed{max-width:30px;max-height:30px;margin:0 3px 0 0}
+.my_prof_title{float:left;margin:2px 0 0 0;font-weight:bold;padding:0}
+.my_prof_text{float:left;margin:2px 0 0 0;padding:0}
+.achievement_listing_text{font-size:11px;line-height:13px;margin-top:2px;padding-bottom: 0}
+.menupop .ab-empty-item:hover{cursor:default}
+img.wpa_a_image{margin-top:5px;margin-right:2px}
+.wpa_rank_badge{max-width:60px;max-height:60px;float:left;margin-top:13px}
+.bbp-reply-author .hide_title{display:none}
+.achieve_top_img{float:left;padding:15px 10px 10px 10px}
+#wpa_bp_achievements_hold{max-width:390px}
+#wpa_bp_achievements_hold h5{margin-bottom:3px}
+a.wpa_custom_trigger{background:#2ea2cc;border-color:#0074a2;-webkit-box-shadow:inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);box-shadow:inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);color:#fff;text-decoration:none;vertical-align:top;display:inline-block;font-size:13px;margin:0;cursor:pointer;border-width:1px;border-style:solid;-webkit-appearance:none;-webkit-border-radius:3px;border-radius:3px;white-space:nowrap;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:30px;line-height:28px;padding:0 12px 2px}
+a.wpa_custom_trigger:hover{background:#1e8cbe;border-color:#0074a2;-webkit-box-shadow:inset 0 1px 0 rgba(120,200,230,.6);box-shadow:inset 0 1px 0 rgba(120,200,230,.6);color:#fff}
+a.trigger_disabled{opacity:0.4;filter:alpha(opacity=40);cursor:default;background:#2ea2cc;border-color:#0074a2;-webkit-box-shadow:inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);box-shadow:inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15)}
+#wpa_leaderboard_sortable .wpa_table_ach_img{width:30px;height:30px}
+#wpa_leaderboard_sortable .avatar{width:50px;height:50px}
+
+.wpa_loader {border: 3px solid #f3f3f3;border-top: 3px solid #3498db;border-radius: 50%;width: 24px;height: 24px;animation: spin 2s linear infinite;display: none}
+@keyframes spin {0% { transform: rotate(0deg)}100% { transform: rotate(360deg)}}
+/* Quest Steps */
+.wpa-progress-indicator {display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex}
+.wpa-progress-indicator > li {-ms-flex: 1;-webkit-flex: 1;-moz-flex: 1;flex: 1}
+.wpa-progress-indicator {margin: 0;padding: 0;}
+.wpa-progress-indicator > li {list-style: none;text-align: center;width: auto;padding: 0;margin: 0;position: relative;text-overflow: ellipsis;color: #bbb;display: block}
+.wpa-progress-indicator > li .bubble {border-radius: 1000px;width: 20px;height: 20px;background-color: #bbb;display: block;margin: 0 auto 0.5em auto}
+.wpa-progress-indicator > li .bubble:before, .wpa-progress-indicator > li .bubble:after {display: block;position: absolute;top: 9px;width: 100%;height: 3px;content: '';background-color: #bbb}
+.wpa-progress-indicator > li .bubble:before {left: 0}
+.wpa-progress-indicator > li .bubble:after {right: 0}
+.wpa-progress-indicator > li:first-child .bubble:before, .wpa-progress-indicator > li:first-child .bubble:after {width: 50%;margin-left: 50%}
+.wpa-progress-indicator > li:last-child .bubble:before, .wpa-progress-indicator > li:last-child .bubble:after {width: 50%;margin-right: 50%}
+.wpa-progress-indicator > li.completed {color: #65d074}
+.wpa-progress-indicator > li.completed .bubble {background-color: #65d074;color: #65d074;border-color: #247830}
+.wpa-progress-indicator > li.completed .bubble:before, .wpa-progress-indicator > li.completed .bubble:after {background-color: #65d074;border-color: #247830}
+.wpa-progress-indicator > li.active {color: #337AB7}
+.wpa-progress-indicator > li.active .bubble {background-color: #337AB7;color: #337AB7;border-color: #122a3f}
+.wpa-progress-indicator > li.active .bubble:before, .wpa-progress-indicator > li.active .bubble:after {background-color: #337AB7;border-color: #122a3f}
+.wpa-progress-indicator > li a:hover .bubble {background-color: #5671d0;color: #5671d0;border-color: #1f306e}
+.wpa-progress-indicator > li a:hover .bubble:before, .wpa-progress-indicator > li a:hover .bubble:after {background-color: #5671d0;border-color: #1f306e}
+.wpa-progress-indicator > li.danger .bubble {background-color: #d3140f;color: #d3140f;border-color: #440605}
+.wpa-progress-indicator > li.danger .bubble:before, .wpa-progress-indicator > li.danger .bubble:after {background-color: #d3140f;border-color: #440605}
+.wpa-progress-indicator > li.warning .bubble {background-color: #edb10a;color: #edb10a;border-color: #5a4304}
+.wpa-progress-indicator > li.warning .bubble:before, .wpa-progress-indicator > li.warning .bubble:after {background-color: #edb10a;border-color: #5a4304}
+.wpa-progress-indicator > li.info .bubble {background-color: #5b32d6;color: #5b32d6;border-color: #25135d}
+.wpa-progress-indicator > li.info .bubble:before, .wpa-progress-indicator > li.info .bubble:after {background-color: #5b32d6;border-color: #25135d}
+.wpa-progress-indicator.custom-complex {background-color: #fdfdfd;padding: 10px 5px;border: 1px solid #f1f1f1;border-radius: 4px}
+.wpa-progress-indicator.custom-complex > li .bubble {height: 12px;width: 99%;border-radius: 2px}
+.wpa-progress-indicator.custom-complex > li .bubble:before,
+.wpa-progress-indicator.custom-complex > li .bubble:after {display: none}
+/* Vertical */
+.wpa-progress-indicator.vertical {display:block}
+.wpa-progress-indicator.vertical > li{text-align:center;display:block;height: 50px;border: none;padding: 0}
+.wpa-progress-indicator.vertical > li .bubble:after, .wpa-progress-indicator.vertical > li .bubble:before {left:50%;margin-left:-1.5px;width:3px;height:100%}
+.wpa-progress-indicator.vertical .vertical-text{position:absolute;z-index:10;top:0;left:80px;width:auto;display:inline-block;text-align:left}
+.wpa-progress-indicator.vertical > li .bubble {margin-left:40px;margin-right:0}
+.wpa-progress-indicator.vertical > li .bubble:after, .wpa-progress-indicator.vertical>li .bubble:before{left:50px}
+.wpa-progress-indicator.vertical > li:last-child .bubble:after, .wpa-progress-indicator.vertical > li:last-child .bubble:before {width:0;height:0}
+.wpa-progress-indicator.vertical .fa {position:absolute;z-index:10;top:3px;left:10px;width:auto;display:inline-block;text-align:left}
+@media handheld, screen and (max-width: 400px) {.wpa-progress-indicator {font-size: 60%}}
+/* Alerts */
+.wpa-alert {padding: 15px;margin-bottom: 20px;border: 1px solid transparent;border-radius: 4px}
+.wpa-alert-success {background-color: #dff0d8;border-color: #d6e9c6;color: #3c763d}
+.wpa-alert-info {background-color: #d9edf7;border-color: #bce8f1;color: #31708f}
+.wpa-alert-warning {background-color: #fcf8e3;border-color: #faebcc;color: #8a6d3b}
+.wpa-alert-danger {background-color: #f2dede;border-color: #ebccd1;color: #a94442}
+#wpa_info .ach_point,#quest_info .ach_point{background:url('../img/bg_green_block.png') no-repeat top left;width:149px;height:34px;text-align:center;font-size:18px;font-weight:bold;line-height:34px;color:#49821d;text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.6)}
+/* Leaderboard */
+.widget_wpachievements_widget .myus_user{width:100%;width:240px;height:50px;text-align:left;margin-bottom:5px;padding:0px 3px 0px 3px;background-color:#f4f4f4;border:2px solid #555;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;position:relative}
+.widget_wpachievements_widget .myus_user img{border:none;padding:0;background:none;background-color:transparent}
+.widget_wpachievements_widget .myus_user img.avatar{float:left;margin:5px 10px 0 4px;width:40px;height:40px}
+.widget_wpachievements_widget .myus_user .myus_title{width:58%;margin-left:50px;color:#f4f4f4;background-color:#444;font-size:14px;font-weight:bold;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:0px 6px 0px 6px;height:20px;line-height:20px;margin-top:5px}
+.widget_wpachievements_widget .myus_user .myus_title a{color:#FFF;text-decoration: none;box-shadow:none;}
+.widget_wpachievements_widget .myus_user .myus_count{margin-top:2px;color:#333;font-weight:bold;font-size:11px;line-height:18px}
+.widget_wpachievements_widget .myus_icon{position:absolute;top:12px;right:5px;margin:0}
+.widget_wpachievements_widget .myus_num{font-size:10px;font-weight:bold;color:#fff;text-align:center;margin-top:7px}
+.widget_wpachievements_widget .myus_num span{font-size:8px}
+.widget_wpachievements_widget .widget-block-bottom{padding-top:18px}
+.widget_wpachievements_widget .user_finish{clear:both}
+.wpach_leaderboard .myus_icon{width:34px;height:35px;margin-top:-5px}
+.wpach_leaderboard .myus_icon.trophy_gold{background:url('../img/trophy_gold.png') no-repeat top left}
+.wpach_leaderboard .myus_icon.trophy_silver{background:url('../img/trophy_silver.png') no-repeat top left}
+.wpach_leaderboard .myus_icon.trophy_bronze{background:url('../img/trophy_bronze.png') no-repeat top left}
+.wpach_leaderboard .myus_icon.trophy_default{background:url('../img/trophy_default.png') no-repeat top left}
+/* My Rank */
+.pb_hold{position:relative;height:22px;width:230px;-moz-border-radius:6px;border-radius:6px;-moz-border-radius:6px;overflow:hidden;margin:0 auto 5px}
+#pb_back,.pb_back_user_login{background:url('../img/bg_bar_back.png') repeat-x top left;width:230px;height:22px}
+#content_locked #pb_back,#content_locked .pb_back_user_login{margin-right:7px}
+#pb_bar,.pb_bar_user_login{background:url('../img/bg_bar_front.png') repeat-x top left;width:0px;height:22px;position:absolute;left:0;top:0}
+.usr_point_count{color:#fff;position:absolute;margin-top:-15px;font-size:12px;font-weight:bold;text-align:center;width:100%;line-height:10px;text-shadow:none;cursor:default;height:10px}
+.user_current_rank,.li_points{width:230px;text-align:center;color:#ec4720;font-size:10px;font-weight:bold;position:relative;text-shadow:none;cursor:default;height:12px;line-height:12px}
+span.li_points_alt_col{color:#2280b6}
+.user_current_rank{font-weight:bold;margin:-1px 0 8px 0;font-size:17px;color:#2280b6}
+#wp-admin-bar-custom_ranks_menu .custom_ranks_head .li_points{margin-top:-3px}
+.user_login_points{margin:auto;background:#f4f4f4;width:240px;padding:13px 5px 10px 5px;-moz-border-radius:5px;border-radius:5px;border:2px solid #555}
+/* Content locked */
+div#content_locked{padding-top:180px;min-height:300px;color:#333}
+#locked_icon_holder{width:250px}
+#locked_icon_holder img{float:left;margin-top:0px;padding:0;background:none;background-color:transparent;border:none}
+#content_locked #locked_register{display:block;background:url('../img/locked_btn.png') no-repeat top left;height:40px;width:178px;color:#2280b6;text-decoration:none;font-size:18px;font-weight:bold;padding-top:20px;margin-left:56px}
+#content_locked #locked_register:hover{color:#F00}
+/* Common */
+.widget_wpachievements_achievements_widget img,.widget_wpachievements_quests_widget img,.bbp-reply-author .wpa_a_image{border:none;box-shadow:none}
+.widget_wpachievements_achievements_widget img,.widget_wpachievements_quests_widget img{margin-left:2px;}
+.widget_wpachievements_achievements_widget img.first,.widget_wpachievements_quests_widget img.first{margin-left:0}
+.widget_wpachievements_ranks_widget .rank_short_title,.widget_wpachievements_achievements_widget .wpa_ach_short_title,.widget_wpachievements_quests_widget .wpa_ach_short_title{display:none}
+#wpa_bp_achievements_hold .clear, .widget_wpachievements_ranks_widget .clear{clear:both}
+.widget_wpachievements_achievements_widget .wpa_horizontal_list_align li, .widget_wpachievements_quests_widget .wpa_horizontal_list_align li { margin:0px; border:none; }
+.wpa_horizontal_list_align {text-align: center;}
+.wpa_loc_caption:before {content: attr(title);display: block;}
+.wpa_horizontal_list ul {text-align: center; padding: 0;}
+.wpa_horizontal_list li {display: inline-block;}
+.wpa_badge_image li img {max-width: 100%;height: auto;margin: 0;}
+/* Activity Code */
+.widget_wpachievements_activity_code_widget .activity-code-form {position: relative}
+.widget_wpachievements_activity_code_widget input[type="text"] {color: #666;background: #fff;background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));border: 1px solid #bbb;-webkit-border-radius: 3px;border-radius: 3px;display: block;padding: 0.7em;width: 100%}
+.widget_wpachievements_activity_code_widget  input[type="text"]:focus {color: #222;border-color: #333}
+.widget_wpachievements_activity_code_widget input[type="submit"], .widget form.activity-code-form input[type="submit"] {background-color: #222;border: 0;-webkit-border-radius: 2px;border-radius: 2px;-webkit-box-shadow: none;box-shadow: none;color: #fff;cursor: pointer;display: inline-block;font-size: 14px;font-size: 0.875rem;font-weight: 800;line-height: 1;padding: 0.5em 1em;text-shadow: none;-webkit-transition: background 0.2s;transition: background 0.2s;position: absolute;right: 3px;top: 3px;bottom: 3px}
+.activation_code_message {width: 100%;border: 1px solid #333;-webkit-border-radius: 3px;border-radius: 3px;padding: 0.7em;background-color: #DFF2BF}
+.activation_code_message.error {background-color: #FFBABA}
+/* Achievement Shortcode */
+.wpa_achievement_container {margin: 20px 0 20px 0;padding: 10px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;overflow: auto}
+.wpa_achievement_container .wpa_achievement_badge_wrap {float: left}
+.wpa_achievement_container .wpa_achievement_badge_wrap img {display: block;width: 100px}
+.wpa_achievement_container .wpa_achievement_content {margin-left: 110px}
+.wpa_achievement_container .wpa_achievement_title {font-weight: bold;font-size: 150%}
+.wpa_achievement_container .wpa_achievement_trigger_title {font-weight: bold}
+.wpa_achievement_container .wpa_achievement_content ol.wpachievements_quest_steps {padding-left: 15px;}
+/**gridtab*/
+.wpa_achivements_gridtab dt{
+  text-align: center;
+}
+.wpa_achivements_gridtab dt:hover {
+  cursor: pointer;
+}
+.wpa_achivements_gridtab dt img {
+  display: inline-table;
+}
+.wpa_achivements_gridtab a.closeBtn, .wpa_achivements_gridtab a.closeBtn:hover,
+.wpa_achivements_gridtab a.nextBtn, .wpa_achivements_gridtab a.nextBtn:hover,
+.wpa_achivements_gridtab a.prevBtn, .wpa_achivements_gridtab a.prevBtn:hover {
+  text-decoration: none;
+  box-shadow: none;
+}
+.wpa_achivements_gridtab .gridtab__close:before, .wpa_achivements_gridtab .closeBtn:before, .wpa_achivements_gridtab .gridtab__close:after,.closeBtn:after{
+  top:50%;left:50%;-webkit-transform:translate(-50%, -50%) rotate(45deg);transform:translate(-50%, -50%) rotate(45deg)
+}
+.wpa_achivements_gridtab .gridtab__close:after, .wpa_achivements_gridtab .closeBtn:after{
+  -webkit-transform:translate(-50%, -50%) rotate(-45deg);transform:translate(-50%, -50%) rotate(-45deg)
+}
+.wpa_achivements_gridtab .gridtab__arrow, .wpa_achivements_gridtab .nextBtn, .wpa_achivements_gridtab .prevBtn, .wpa_achivements_gridtab .gridtab__close, .wpa_achivements_gridtab .closeBtn{
+  display:block;width:25px;height:25px;overflow:hidden;background:#666;text-indent:-999px;position:relative
+}
+.wpa_achivements_gridtab .gridtab__arrow:before, .wpa_achivements_gridtab .nextBtn:before, .wpa_achivements_gridtab .prevBtn:before, .wpa_achivements_gridtab .gridtab__arrow:after, .wpa_achivements_gridtab .nextBtn:after, .wpa_achivements_gridtab .prevBtn:after, .wpa_achivements_gridtab .gridtab__close:before, .wpa_achivements_gridtab .closeBtn:before, .wpa_achivements_gridtab .gridtab__close:after, .wpa_achivements_gridtab .closeBtn:after{
+  position:absolute;width:3px;height:13px;content:'';display:block;background:#FFF
+}
+.wpa_achivements_gridtab .gridtab__arrow:before, .wpa_achivements_gridtab .nextBtn:before,.wpa_achivements_gridtab .prevBtn:before, .wpa_achivements_gridtab .gridtab__arrow:after, .wpa_achivements_gridtab .nextBtn:after, .wpa_achivements_gridtab .prevBtn:after{
+  top:50%;left:50%;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-transform-origin:right;transform-origin:right;margin:-7px 0 0 -3px;height:10px
+}
+.wpa_achivements_gridtab .gridtab__arrow:after, .wpa_achivements_gridtab .nextBtn:after, .wpa_achivements_gridtab .prevBtn:after{
+  margin-top:-4px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)
+}
+.wpa_achivements_gridtab .gridtab__arrow.is-disabled, .wpa_achivements_gridtab .is-disabled.nextBtn, .wpa_achivements_gridtab .nextBtn.disabledBtn, .wpa_achivements_gridtab .is-disabled.prevBtn, .wpa_achivements_gridtab .prevBtn.disabledBtn, .wpa_achivements_gridtab .gridtab__arrow.disabledBtn{
+  opacity:.25
+}
+.wpa_achivements_gridtab .gridtab__next, .wpa_achivements_gridtab .nextBtn{
+  -webkit-transform:scale(-1);transform:scale(-1);-webkit-transform-origin:center;transform-origin:center
+}
+.wpa_achivements_gridtab .closeBtn, .wpa_achivements_gridtab .nextBtn, .wpa_achivements_gridtab .prevBtn {
+  background:#686868
+}
+.wpa_achivements_gridtab ol {
+  list-style: decimal;
+  margin-left: 1.5em !important;
+}
+/** Ribbon */
+.wpa_ribbon {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 10;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.wpa_ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.wpa_ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #79A70A;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #79A70A;
+}
+.wpa_ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #79A70A;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #79A70A;
+}
+
+.wpa_ribbon_red span {
+  background: #79A70A;
+  background: linear-gradient(#F70505 0%, #8F0808 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+}
+.wpa_ribbon_red span::before {
+  border-left: 3px solid #8F0808;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F0808;
+}
+.wpa_ribbon_red span::after {
+  border-left: 3px solid transparent;
+  border-right: 3px solid #8F0808;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F0808;
+}
+
+.wpa_description:after { content: ''; clear: both; visibility: hidden; }
+.wpa_description .wpa_description_image { float: left; margin-right: 20px; text-align: center }
+.wpa_description .wpa_description_image img {margin-bottom: 20px;}
+.wpa_description .wpa_description_content { overflow: hidden }
+
+@media screen and (max-width: 600px) {
+  .wpa_description .wpa_description_image {
+    float: none;
+  }
+  .wpa_description .wpa_description_image img {
+    display: none;
+  }
+}
+/**
+ * bp grid
+ * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ */
+.wpa-bp-tab-title-box {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.wpa-bp-tab-title-box .wpa-bp-tab-title-content {
+  margin-left: 15px;
+}
+
+.wpa-bp-tab-title-box .wpa-bp-tab-title-icon,
+.wpa-bp-tab-title-box .wpa-bp-tab-title-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.wpa-bp-tab-title-box .wpa-bp-tab-title-icon i {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.wpa-bp-tab-title-box .wpa-bp-tab-title-content h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wpa-bp-tab-title-box .wpa-bp-tab-title-content span {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.wpa-bp-badges-tab {
+  padding: 0;
+  margin: 0 0 20px 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.wpa-bp-badges-tab .wpa-bp-badge-item {
+  width: 170px;
+  min-height: 160px;
+  margin-top: 10px;
+  padding: 10px 5px 5px 5px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+}
+
+.wpa-bp-badges-tab .wpa-bp-badge-item img {
+  display: inline-block;
+}
+
+.wpa-bp-badges-tab .wpa-bp-badge-item .wpa-bp-badge-title {
+  padding: 5px;
+  color: #898989;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 5px;
+}

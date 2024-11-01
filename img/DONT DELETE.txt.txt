@@ -1,0 +1,1 @@
+Do not remove this folder. It's required for the backward compatibility.

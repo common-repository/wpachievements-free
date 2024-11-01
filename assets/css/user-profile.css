@@ -1,0 +1,109 @@
+#wpachievements_achievements_data_form .pull-left{float:left;}
+#wpachievements_achievements_data_form .pull-right{float:right;}
+#wpachievements_achievements_data_form .clear{clear:both;}
+#wpachievements_achievements_data_form .ui-spinner{border: 0px solid white;position:absolute;margin:1px 0 0 -17px;height:30px;}
+#wpachievements_achievements_data_form .ui-spinner-buttons .ui-icon-triangle-1-n{margin-top:-8px;}
+#wpachievements_achievements_data_form .ui-spinner-buttons .ui-icon-triangle-1-s{margin-top:-8px;}
+#wpachievements_achievements_data_form .ui-spinner-down{top:15px; }
+#wpachievements_achievements_data_form .ui-spinner-button{cursor:pointer;}
+#wpachievements_achievements_data_form p.submit{margin:0px 0 -10px 0;width:auto;}
+.ach_btn{
+	-moz-border-radius:5px;border-radius:5px;
+	cursor:pointer;
+	border: 1px solid #282828;
+	color:#fff;
+	padding: 6px 16px;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight:bold;
+	background:rgb(16,78,139);
+	background:-webkit-gradient(
+	    linear,
+	    left bottom,
+    	left top,
+	    color-stop(0.12, rgb(16,78,139)),
+	    color-stop(1, rgb(28,134,238))
+	);
+	background:-moz-linear-gradient(
+	    center bottom,
+	    rgb(16,78,139) 12%,
+    	rgb(28,134,238) 100%
+	);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+#wpachievements_achievements_data_form .canc_btn{
+	background:rgb(81,81,81);
+	background:-webkit-gradient(
+	    linear,
+	    left bottom,
+    	left top,
+	    color-stop(0.12, rgb(81,81,81)),
+	    color-stop(1, rgb(131,139,131))
+	);
+	background:-moz-linear-gradient(
+	    center bottom,
+	    rgb(81,81,81) 12%,
+    	rgb(131,139,131) 100%
+	);
+}
+#wpachievements_achievements_data_form #upload_image_button:hover,.ach_btn:hover{
+	background: #282828;
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+}
+#wpachievements_achievements_data_form .form-table input{width:284px;height:30px;background-color:#2d2d2d;color:#f4f4f4;font-size:14px;-moz-border-radius:5px;border-radius:5px;border:1px solid #fff;}
+#add_achievement_table tr{border:none;background:#1C1C1C;border-top:1px solid #262626;border-bottom:1px solid #161712;padding:10px 0 10px 0;}
+#wpachievements_achievements_data_form label{font-size:14px;color:#f4f4f4;text-shadow:none;}
+#wpachievements_achievements_data_form label i{font-size:10px;}
+#wpachievements_achievements_data_form{display:none;background:#1C1C1C;width:500px;padding:10px;margin-top:15px;border:3px solid #ccc;-moz-border-radius:5px;border-radius:5px;}
+#wpachievements_achievements_data_form h3{color:#ffffff;font-size:18px;text-transform:uppercase;padding:0 0 5px 5px;border-bottom:1px solid #999;}
+#wpachievements_achievements_data_points,#wpachievements_achievements_data_wc_points,#wpachievements_achievements_data_event_no{width:268px;}
+#wpachievements_achievements_data_form #upload_image_button{width:auto;color:#464646;height:21px;}
+#wpachievements_achievements_data_form #wpachievements_achievements_data_points,#wpachievements_achievements_data_form #wpachievements_achievements_data_wc_points,#wpachievements_achievements_data_form #wpachievements_achievements_data_event_no{-moz-border-radius:5px 0 0 5px;border-radius:5px 0 0 5px;}
+#wpachievements_create{margin-top:10px;}
+#wpachievements_achievements_data_form p.submit{}
+#wpachievements_achievements_data_form textarea{width:284px;height:100px;background-color:#2d2d2d;color:#f4f4f4;font-size:14px;-moz-border-radius:5px;border-radius:5px;border:1px solid #fff;resize:none;margin-bottom:0;}
+#wpachievements_achievements_data_form #upload_image{width:1px;border:none;background-color:#1C1C1C;}
+#wpachievements_achievements_data_form #upload_image:hover,#add_achievement_table:hover,#add_achievement_table label:hover{cursor: default;}
+#wpachievements_achievements_data_form #upload_image_button{
+	font-weight:bold;
+	color:#fff;
+	border:none;
+	background:#555;
+	background:-webkit-gradient(
+	    linear,
+	    left bottom,
+    	left top,
+	    color-stop(0.12, rgb(60,60,60)),
+	    color-stop(1, rgb(85,85,85))
+	);
+	background:-moz-linear-gradient(
+	    center bottom,
+	    rgb(60,60,60) 12%,
+    	rgb(85,85,85) 100%
+	);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+#wpachievements_achievements_data_form span.white_txt{color:#f4f4f4;}
+#add_achievement_table tr.tr_sep th,#wpachievements_achievements_data_form .form-table tr.tr_sep th{padding:0;}
+#add_achievement_table tr.tr_sep,#wpachievements_achievements_data_form .form-table tr.tr_sep{padding:0;width:100%;height:3px;background-color:#333;}
+#add_achievement_table tr.tr_sep2 th,#wpachievements_achievements_data_form .form-table tr.tr_sep2 th{padding:0;}
+#add_achievement_table tr.tr_sep2,#wpachievements_achievements_data_form .form-table tr.tr_sep2{padding:0;width:100%;height:10px;background-color:transparent;}
+#wpachievements_achievements_data_form tr#radio_btn_holder{display:none;}
+#wpachievements_achievements_data_form tr#radio_btn_holder div{float:left;}
+#wpachievements_achievements_data_form input[type="radio"]{display:none;}
+#wpachievements_achievements_data_form img.radio_btn{cursor:pointer;border:2px solid #1C1C1C;margin-right:3px;width:50px;height:50px;opacity:0.60;filter:alpha(opacity=60);}
+#wpachievements_achievements_data_form img.radio_btn:hover{opacity:1;filter:alpha(opacity=100);}
+#wpachievements_achievements_data_form img#selected_btn{border:2px solid #21759B;opacity:1;filter:alpha(opacity=100);}
+
+#wpachievements_table .inputbox{width:100%;}
+#wpachievements_achievements_data_form #event_no,#wpachievements_achievements_data_form #image_preview_holder{display:none;}
+#wpachievements_achievements_data_form small { font-size:10px; }
+#error_holder{width:526px;}

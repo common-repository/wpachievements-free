@@ -1,0 +1,10 @@
+.colorpickpreview {
+    padding: 3px;
+    padding-left: 20px;
+    border: 1px solid #ddd;
+    border-right: 0;
+  }
+
+  .colorpick {
+    border-left: 0;
+  }
